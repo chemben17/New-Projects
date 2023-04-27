@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+body {
+    background: hsl(221, 100%, 96%);
+}
+main {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* padding: 4rem 0; */
+}
+
+.container-1 {
+    width: 80%;
+    max-width: 700px;
+    height: 450px;
+    margin: 8rem auto;
+    max-height: 500px;
+    display: flex;
+    background-color:hsl(0, 0%, 100%);
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+    .container-2.container {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        text-align: center;
+        
+    }
+.container-2 {
+    flex: 1 1 0;
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.8rem;
+    min-width: 300px;
+    /* text-align: center; */
+}
+.container > .result {
+    color:hsl(241, 100%, 89%);
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+}
+.score {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    padding: 2rem;
+    border-radius: 50%;
+    color:hsl(241, 100%, 89%);
+    margin-bottom: 1.0rem;
+}
+.score > span {
+    display: block;
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+    font-size: 3.2rem;
+}
+
+.container > .qualify {
+    color: hsl(0, 0%, 100%);
+    margin: 0.5rem;
+    font-weight: 800;
+    letter-spacing: 0.08rem;
+    font-size: 1.5rem;
+}
+p#remarks {
+    color: hsl(241, 100%, 89%);
+    /* letter-spacing: 0.01rem; */
+    margin: 1.0rem 1.5rem 1.5rem 1.5rem;
+    font-weight: 500;
+}
+
+.container-2 > #sum {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+}
+
+.course-breakdown  > p {
+    width: 100%;
+    padding: 0.9rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.course-breakdown > p:nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 0.040);
+    border-radius: 15px;
+}
+.course-breakdown > p:nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 0.040);
+    border-radius: 15px
+}
+
+.course-breakdown > p:nth-child(3) {
+    background-color:hsla(166, 100%, 37%, 0.040);
+    border-radius: 15px;
+}
+
+.course-breakdown p:last-of-type {
+    background-color: hsla(234, 85%, 45%, 0.040);
+    border-radius: 15px;
+}
+p > .subject-1 {
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    /* margin-right: 15% */
+}
+p > .subject-2 {
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+p > .subject-3 {
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+p > .subject-4 {
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+}
+
+p > img {
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+p > .num-1 {
+    display: flex;
+    color: hsl(265, 30%, 27%);
+    font-weight: 800;
+    margin-right: 5px;
+    justify-content:flex-end;
+}
+
+p#continue {
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    padding: 0.9rem;
+    border-radius: 1.5rem;
+}
+p#continue:hover, p#continue:focus {
+    background-color: hsla(224, 30%, 27%, 0.348);
+}
+p#continue > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+p#continue > a:hover, a:focus {
+    color: hsl(166, 100%, 37%);
+}
+
+p > div{
+    display: inline-flex;
+    /* position: relative; */
+    width: 100%;
+    justify-content: space-between;
+}
+span.child-1 {
+    position: relative;
+    left: 30%;
+}
